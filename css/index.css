@@ -464,6 +464,14 @@ textarea {
     padding-bottom: var(--spacing-12);
 }
 
+.titulos__beneficios {
+    text-align: left;
+    max-width: 650px;
+    margin: 0 auto;
+    list-style: disc;
+    padding-bottom: var(--spacing-12);
+}
+
 @media (max-width: 920px){
 
     .collection__title {
