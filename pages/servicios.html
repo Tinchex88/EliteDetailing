@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Garage | Servicios</title>
+</head>
+<body>
+<!-------- INICIO DEL HEADER -------->
+<header>
+    <nav class="navbar container">
+        <picture class="navbar__logo">
+            <a href="../index.html">
+                <img src="../img/logo/Garage_logo.jpg" alt="logo de la empresa">
+            </a>                    
+        </picture>
+        <ul class="navbar__menu">                  
+            <li class="navbar_item">
+                <a class="navbar__link" href="./nosotros.html">SOBRE NOSOTROS</a>
+            </li>
+            <li class="navbar_item">
+                <a class="navbar__link" href="./trabajos.html">NUESTROS TRABAJOS</a>
+            </li>
+            <li class="navbar_item">
+                <a class="navbar__link" href="./servicios.html">NUESTROS SERVICIOS</a>
+            </li>
+            <li class="navbar_item">
+                <a class="navbar__link" href="./contacto.html">CONTACTANOS</a>
+            </li>                    
+        </ul>
+    </nav>
+</header>
+<!-------- FIN DEL HEADER -------->
+<!-------- INICIO DEL CONTENIDO PRINCIPAL -------->    
+<main class="main-container">
+    <h2 class="container servicios__title">Nuestros servicios a tú disposición:</h2>
+    <!-------- SECCION DEL TRATAMIENTO CERAMICO -------->   
+    <section class="container">
+        <div class="collection">
+            <article class="collection__content">
+                <h2 class="collection__title">TRATAMIENTO CERÁMICO</h2>
+                <p class="collection__text">Nuestro servicio de Tratamiento Cerámico va más allá de una simple aplicación de una protección. Nosotros llevamos la estética de tu vehículo a otro nivel.
+                    Este servicio incluye la limpieza detallada de toda la unidad, el lavado de motor y descontaminación férrica de las llantas, en cualquiera de las opciones de este servicio que tenemos para ofrecerte.
+                    Como su nombre lo indica es una secuencia de procesos que incluye el lavado, descontaminado y el pulido que requiera la unidad dependiendo del estado para alcanzar nuestro estándar de entrega.
+                    Por último la aplicación de un coating o sellador cerámico que en su mayoría está compuesto por silicio, cuarzo, titanio o flourcarbono, lo que transforma a la pintura en una superficie con propiedades antiadherentes, hidrofóbica y con una capacidad de resistencia química y abrasiones increíble.
+                    El Tratamiento cerámico es la mejor opción para proteger la pintura de tu auto desde el primer día o devolverle la vida y dejarlo como 0km.</p>
+                <div class="collection__text">
+                    <h3>Info:</h3>
+                    <ul>
+                        <li>Durabilidad: 1 año</li>
+                        <li>Entrega: 24 a 48hs</li>
+                        <li>Precio: Consultar</li>
+                        <li>Días y Horarios: 09 a 18h. Lunes a Sábados</li>
+                        <li>Ubicación: Béccar, San Isidro</li>
+                        <li>Medios de Pago: Todos los medios de pago</li>
+                        <!-- LLAMADO A LA API DEL BCRA PARA MOSTRAR ULTIMA COTIZACION DEL DOLAR  -->
+                        <section>
+                            <div id="dato"></div>                        
+                            <script type="module" src="../js/consultar_dolar.js"></script> 
+                        </section>
+                    </ul>
+                </div>
+                <a class="collection__link" href="./contacto.html">¡Pedí tu turno ahora!</a>                 
+            </article>            
+            <picture>
+                <img class="collection__cover" src="../img/servicios/tto_ceramico.jpg" alt="Resultado tratamiento cerámico">
+            </picture>
+        </div>
+        <div class="collection__text">
+            <h3 class="titulos__beneficios">Los 10 Beneficios del Tratamiento Cerámico:</h3>
+            <ol class="beneficios">
+                <li>Una superficie más lisa.</li>
+                <li>Aumentar su valor en el mercado.</li>
+                <li>Un brillo intenso adicional y máximo resalte del color.</li>
+                <li>Un rejuvenecimiento del vehículo.</li>
+                <li>Mayor resistencia cuando se expone a los rayos UV o altas temperaturas.</li>
+                <li>Limpio por mucho más tiempo.</li>
+                <li>Capacidad hidrófoba.</li>
+                <li>Protegerlo de las inclemencias del clima y la naturaleza.</li>
+                <li>Que no se deteriore la pintura con facilidad.</li>
+                <li>Mayor durabilidad del tratamiento.</li>
+            </ol>
+            <h3 class="titulos__beneficios">Además:</h3>
+            <ul class="beneficios">
+                <li>Se realiza en todas las superficies del vehículo.</li>
+                <li>Cuidado y restauración.</li>
+                <li>Entregamos el vehículo en 24 a 48 horas.</li>
+                <li>El tratamiento cerámico no afecta la garantía de tu 0km.</li>
+            </ul>
+        </div>
+    </section>
+    <!-------- SECCION DEL TRATAMIENTO ACRÍLICO -------->    
+    <section class="container">
+        <div class="collection">
+            <article class="collection__content">
+                <h2 class="collection__title">TRATAMIENTOS ACRÍLICO</h2>
+                <p class="collection__text">
+                    Cuando hablamos de un tratamiento acrílico estamos haciendo referencia a todo un proceso que empieza en el lavado del vehículo y finaliza en el sellado propiamente dicho.
+                Para comenzar es fundamental tener el vehículo limpio de polvo cualquier otro tipo de impureza, por eso un correcto lavado es primordial. Este paso viene complementado por un descontaminado de la carrocería, ya que hay suciedad que se encuentra muy adherida y con un simple lavado no podríamos remover.
+                Ya teniendo el vehículo preparado para el trabajo, se da comienzo a la corrección de barniz. La misma se realiza en tres etapas y, para ello, se seleccionan los productos más apropiados de las mejores marcas. La elección por uno u otro va a depender del tipo de laca (barniz o clear) que posea el vehículo. En esta instancia no sólo se logrará eliminar imperfecciones como hologramas (generados por realizar de forma incorrecta un pulido) y microrayas, sino que también se le brindará mayor profundidad de color a la pintura.
+                Hasta acá corregimos cuestiones estéticas. El paso final tendrá mayor relación con la protección ya que es la instancia de aplicación del sellador. Con esto protegemos el barniz, la pintura de rayos UV y contaminación.
+                Si estas buscando conservar durante más tiempo la pintura del auto, evitar la oxidación de la misma y que pierda el brillo; realizarle un tratamiento acrílico a tu vehículo es una excelente inversión. Incluso, si tu intención es venderlo y queres aumentar o mantener su valor por estar impecable y asemejarse a las condiciones de un vehículo 0 km.
+                Logicamente, la duración de la protección depende del cuidado que se le otorgue. En este sentido disponemos la posibilidad de ofrecer lavados de mantenimiento que harán que el auto conserve su brillo, la profundidad de color y la protección se extienda en el tiempo.
+                Una de las ventajas del tratamiento acrílico es que de fácil mantenimiento. Es decir, simplemente necesitarías contar con: shampoo neutro, manoplas de microfibra de lavado, microfibra de secado (wafle) y una microfibra de lustre (de alto gramaje). Todos estos elementos podés a su vez conseguirlos en nuestro local.
+                </p>
+                <div class="collection__text">
+                    <h3>Info:</h3>
+                    <ul>
+                        <li>Durabilidad: 1 año</li> 
+                        <li>Entrega: 24 a 48hs</li> 
+                        <li>Precio: Consultar</li>  
+                        <li>Días y Horarios: 09 a 18h. Lunes a Sábados</li>
+                        <li>Ubicación: Béccar, San Isidro</li>  
+                        <li>Medios de Pago: Todos los medios de pago</li>
+                    </ul>
+                </div>
+                <a class="collection__link" href="./contacto.html">¡Pedí tu turno ahora!</a>                 
+            </article>            
+            <picture>
+                <img class="collection__cover" src="../img/servicios/tto_acrilico.jpg" alt="Resultado tratamiento acrílico"">
+            </picture>
+        </div>
+        <div class="collection__text">
+            <h3 class="titulos_beneficios">Los 10 Beneficios del Tratamiento acrílico:</h3>
+            <ol class="beneficios">
+                <li>Aumentar su valor en el mercado realizando alguno de nuestros tratamientos, estarías cuidando el valor de tu vehículo.</li>
+                <li>Un brillo intenso adicional y máximo resalte del color. El acabado de nuestros productos es único. Tu vehículo se verá mejor, más brilloso que un auto nuevo. ¡No podrás reconocerlo cuando salga del taller!</li>
+                <li>Entregas dentro de las 24 a 48 hs. Nuestra meta es entregar el auto en 24 a 48 horas desde que ingresa a nuestro taller. Sin embargo, esto va a depender del estado y características particulares de tu vehículo y de otros factores. Por eso es importante que traigas tu auto antes para definir que tratamientos se van a aplicar.</li>
+                <li>Protegerlo de las inclemencias del clima y la naturaleza. Los factores climáticos dañan la pintura y el revestimiento de las superficies del vehículo, nuestros tratamientos te ayudarán a que esto no se note.</li>
+                <li>Que no se deteriore la pintura con facilidad. Nuestro recubrimiento restaura y preserva la pintura, lo que permitirá que sea más resistente a las inclemencias del tiempo, los rayos UV o desgastes.</li>
+                <li>Rejuvenecimiento del vehículo. Proteger la pintura de tu vehículo es fundamental para que no se dañe y siempre se vea como nuevo.</li>
+                <li>Se realiza en todas las superficies del vehículo.</li>
+                <li>Cuidado y restauración.</li>
+                <li>El tratamiento acrílico no afecta la garantía de tu 0 km.</li>
+            </ol>
+            <h3 class="titulos_beneficios">Además:</h3>
+            <ul class="beneficios">
+                <li>Se realiza en todas las superficies del vehículo.</li>
+                <li>Cuidado y restauración.</li>
+                <li>Entregamos el vehículo en 24 a 48 horas.</li>
+                <li>El tratamiento cerámico no afecta la garantía de tu 0km.</li>
+            </ul>
+        </div>
+    </section> 
+    <!-------- SECCION DEL TRATAMIENTO ACRÍLICO -------->         
+    <section class="container">
+        <div class="collection">
+            <article class="collection__content">
+                <h2 class="collection__title">RESTAURACIÓN DE ÓPTICAS</h2>
+                <p class="collection__text">
+                    Uno de los servicios que ofrecemos es la restauración de ópticas. Este trabajo se realiza en situaciones donde el daño es externo. Por lo general estamos hablando de plásticos opacos o percudidos que impiden una buena visualización del camino. Para corregir este tipo de imperfecciones trabajamos con lijas al agua y con máquinas adecuadas para el uso de las mismas y terminamos de corregir detalles con dos pasos de pulido. Por último, y para preservar el trabajo mucho más tiempo, le aplicamos el sellador.
+                </p>
+                <div class="collection__text">
+                    <h3>Info:</h3>
+                    <ul>
+                        <li>Durabilidad: 1 año</li> 
+                        <li>Entrega: 24hs</li> 
+                        <li>Precio: Consultar</li>  
+                        <li>Días y Horarios: 09 a 18h. Lunes a Sábados</l   i>
+                        <li>Ubicación: Béccar, San Isidro</li>  
+                        <li>Medios de Pago: Todos los medios de pago</li>   
+                    </ul>
+                </div>
+                <a class="collection__link" href="./contacto.html">¡Pedí tu turno ahora!</a>                 
+            </article>            
+            <picture>
+                <img class="collection__cover" src="../img/servicios/tto_opticas.jpg" alt="Resultado restauración de ópticas"">
+            </picture>
+        </div>
+        <div class="collection__text">
+            <h3 class="titulos_beneficios">Los 10 beneficios de la restauración de ópticas:</h3>
+            <ol class="beneficios">            
+                <li>Aumenta la visibilidad notablemente en ruta.</li>
+                <li>Aumentar la seguridad, ayudando a preveer situaciones peligrosas.</li>
+                <li>Rejuvenecimiento del vehículo.</li>
+                <li>Mayor resistencia cuando se expone a los rayos UV o altas temperaturas.</li>
+                <li>Limpio por mucho más tiempo.</li>
+                <li>Capacidad hidrófoba.</li>
+                <li>Protegerlo de las inclemencias del clima y de la naturaleza.</li>
+                <li>Que no se deterioren los polimeros de la óptica por el paso del tiempo.</li>
+                <li>Ahorro de dinero, al no tener que comprar un faro nuevo, los costes de instalación y manteniendo los faros originales.</li>
+                <li>Garantía de satisfacción en el trabajo.</li>
+            </ol>
+        </div>
+    </section>
+    <!-------- SECCION DE RESTAURACION DE ÓPTICAS -------->  
+    <section class="container">
+        <div class="collection">
+            <article class="collection__content">
+                <h2 class="collection__title">RESTAURACIÓN DE ÓPTICAS</h2>
+                <p class="collection__text">
+                    Uno de los servicios que ofrecemos es la restauración de ópticas. Este trabajo se realiza en situaciones donde el daño es externo. Por lo general estamos hablando de plásticos opacos o percudidos que impiden una buena visualización del camino. Para corregir este tipo de imperfecciones trabajamos con lijas al agua y con máquinas adecuadas para el uso de las mismas y terminamos de corregir detalles con dos pasos de pulido. Por último, y para preservar el trabajo mucho más tiempo, le aplicamos el sellador.
+                </p>
+                <div class="collection__text">
+                    <h3>Info:</h3>
+                    <ul>
+                        <li>Durabilidad: 1 año</li> 
+                        <li>Entrega: 24hs</li> 
+                        <li>Precio: Consultar</li>  
+                        <li>Días y Horarios: 09 a 18h. Lunes a Sábados</l   i>
+                        <li>Ubicación: Béccar, San Isidro</li>  
+                        <li>Medios de Pago: Todos los medios de pago</li>   
+                    </ul>
+                </div>
+                <a class="collection__link" href="./contacto.html">¡Pedí tu turno ahora!</a>                 
+            </article>            
+            <picture>
+                <img class="collection__cover" src="../img/servicios/tto_opticas.jpg" alt="Resultado restauración de ópticas"">
+            </picture>
+        </div>
+        <div class="collection__text">
+            <h3 class="titulos_beneficios">Los 10 beneficios de la restauración de ópticas:</h3>
+            <ol class="beneficios">            
+                <li>Aumenta la visibilidad notablemente en ruta</li>
+                <li>Aumentar la seguridad, ayudando a preveer situaciones peligrosas.</li>
+                <li>Rejuvenecimiento del vehículo.</li>
+                <li>Mayor resistencia cuando se expone a los rayos UV o altas temperaturas.</li>
+                <li>Limpio por mucho más tiempo.</li>
+                <li>Capacidad hidrófoba.</li>
+                <li>Protegerlo de las inclemencias del clima y de la naturaleza.</li>
+                <li>Que no se deterioren los polimeros de la óptica por el paso del tiempo.</li>
+                <li>Ahorro de dinero, al no tener que comprar un faro nuevo, los costes de instalación y manteniendo los faros originales.</li>
+                <li>Garantía de satisfacción en el trabajo.</li>
+            </ol>
+        </div>
+    </section>
+    <!-------- SECCION DEL LAVADO Y DETALLADO INTERIOR -------->
+    <section class="container ultimo_article">
+        <div class="collection">
+            <article class="collection__content">
+                <h2 class="collection__title">LAVADO Y DETALLADO INTERIOR</h2>
+                <p class="collection__text">
+                    El vehículo se expone cada día a situaciones extremas de ambiente y temperatura, por lo que debemos cuidarlo para así conservarlo como el primer día. Si no mantenemos nuestro auto limpio, la acumulación de polvo y suciedad acelerará el proceso de envejecimiento de los elementos internos y externos. En Garage Auto Detailing nos enfocamos íntegramente en una limpieza minucionsa de zonas interiores del vehículo, para esto trabajamos con productos de limpieza, desengrasantes, limpia tapiz, entre otros materiales, que nos permiten dejar tapicerías, techo, asientos, piso, alfombras y conductos de aire nítidos y libres de manchas, ácaros y bacterias.
+                    Debemos tener en cuenta que la polución, la lluvia, la radiación del sol y las temperaturas extremas forman una capa que daña los plásticos y pinturas,que pueden volverse blancos, quebradizos y provocar pinturas opacas o grietas. Si esto ocurre, no vamos a poder lograr eliminarlo con un lavado manual.   
+                    Para no sufrir estos problemas, lo ideal es limpiar el vehículo con materiales especializados para esta labor, que lo protejan y lo aíslen de agenexternos.
+                    Viví una nueva experiencia en el interior de tu auto.
+                </p>
+                <div class="collection__text">
+                    <h3>Info:</h3>
+                    <ul>
+                        <li>Durabilidad: 2 años</li> 
+                        <li>Entrega: 24hs</li> 
+                        <li>Precio: Consultar</li>  
+                        <li>Días y Horarios: 09 a 18h. Lunes a Sábados</li>
+                        <li>Ubicación: Béccar, San Isidro</li>  
+                        <li>Medios de Pago: Todos los medios de pago</li>   
+                    </ul>
+                </div>
+                <a class="collection__link" href="./contacto.html">¡Pedí tu turno ahora!</a>                 
+            </article>            
+            <picture>
+                <img class="collection__cover" src="../img/servicios/tto_interior.jpg" alt="Resultado de lavado y detallado interior"">
+            </picture>
+        </div>
+        <div class="collection__text">
+            <h3 class="titulos_beneficios">Los 10 beneficios del detallado interior:</h3>
+            <ol class="beneficios2">             
+                <li>Renovacion de tu interior tanto en aroma como en confort.</li>
+                <li>Libera el habitáculo del auto de bacterias, hongos y ácaros que se impregnan con los años.</li>
+                <li>Se convierte en un área limpia y segura para ti y tu familia.</li>
+                <li>Mayor resistencia cuando se expone a los rayos UV o altas temperaturas.</li>
+                <li>Limpio por mucho más tiempo.</li>
+                <li>Ayudan a mantener en buen estado las superficies de tu autos ya que utilizan equipos y materiales que no causan daños al interior de tu auto.</li>
+                <li>Protegerlo de las inclemencias del clima y de la naturaleza.</li>
+                <li>Que no se deterioren los polimeros de los plasticosinterior por el paso del tiempo.</li>
+                <li>La diferencia principal entre esta limpieza a profundidad y otras limpiezas superficiales es que trabajamos con equipos y procedimientos a detalle área por área.</li>
+                <li>Garantía de satisfacción en el trabajo.</li>
+            </ol>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <nav class="navbar container">
+        <ul class="navbar__items">
+            <li class="navbar__item">
+                <a class="navbar__link" href="./nosotros.html">SOBRE NOSOTROS</a>
+            </li>
+            <li class="navbar__item">
+                <a class="navbar__link" href="./trabajos.html">NUESTROS TRABAJOS</a>
+            </li>
+            <li class="navbar__item">
+                <a class="navbar__link" href="./servicios.html">NUESTROS SERVICIOS</a>
+            </li>
+            <li class="navbar__item">
+                <a class="navbar__link" href="./contacto.html">CONTACTANOS</a>
+            </li>
+        </ul>
+        <picture>
+            <img class="footer__logo"- src="../img/logo/Garage_logo.jpg" alt="Isotipo de la empresa">
+        </picture>
+    </nav>    
+    <p class="footer__copy">All rights reserved 2023 - Elite Detailing &copy;</p>
+</footer>
+</body>
+</html>
